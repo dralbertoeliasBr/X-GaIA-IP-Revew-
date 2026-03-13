@@ -1,0 +1,10 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #0d1117; color: #c9d1d9; }
+#app { max-width: 480px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+header { background: #161b22; padding: 16px; text-align: center; }
+h1 { font-size: 2rem; color: #58a6ff; }
+#status { color: red; font-weight: bold; }
+nav { display: flex; background: #161b22; }
+nav button { flex: 1; padding: 12px; background: none; border: none; color: #c9d1d9; }
+nav button.ativo { color: #58a6ff; border-bottom: 3px solid #58a6ff; }
+main { padding: 20px; text-align: center; }
